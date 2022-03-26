@@ -1,0 +1,15 @@
+{
+    "name": "devtools.fredldotme",
+    "description": "Development tools for your Ubuntu Touch environment",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Dev Tools",
+    "hooks": {
+        "devtools": {
+            "apparmor": "devtools.apparmor",
+            "desktop":  "devtools.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Alfred Neumayer <dev.beidl@gmail.com>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
