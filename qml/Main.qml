@@ -20,7 +20,7 @@ import Ubuntu.Components 1.3
 import QtQuick.Layouts 1.3
 import Qt.labs.settings 1.0
 
-import Example 1.0
+import UTDevTools 1.0
 
 MainView {
     id: root
@@ -62,7 +62,7 @@ MainView {
             Button {
                 Layout.alignment: Qt.AlignHCenter
                 text: i18n.tr('Press here!')
-                onClicked: Example.speak()
+                onClicked: Utils.speak()
             }
 
             Item {

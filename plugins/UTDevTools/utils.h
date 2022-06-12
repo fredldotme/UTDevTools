@@ -19,12 +19,12 @@
 
 #include <QObject>
 
-class Example: public QObject {
+class Utils: public QObject {
     Q_OBJECT
 
 public:
-    Example();
-    ~Example() = default;
+    Utils();
+    ~Utils() = default;
 
     Q_INVOKABLE void speak();
 };

@@ -16,12 +16,12 @@
 
 #include <QDebug>
 
-#include "example.h"
+#include "utils.h"
 
-Example::Example() {
+Utils::Utils() {
 
 }
 
-void Example::speak() {
+void Utils::speak() {
     qDebug() << "hello world!";
 }

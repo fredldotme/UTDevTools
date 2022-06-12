@@ -1,10 +1,11 @@
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-set(PLUGIN "Example")
+set(PLUGIN "UTDevTools")
 
 set(
     SRC
     plugin.cpp
-    example.cpp
+    utils.cpp
+    commandrunner.cpp
 )
 
 set(CMAKE_AUTOMOC ON)
