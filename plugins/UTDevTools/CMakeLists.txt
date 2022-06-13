@@ -6,6 +6,7 @@ set(
     plugin.cpp
     utils.cpp
     commandrunner.cpp
+    filewriter.cpp
 )
 
 set(CMAKE_AUTOMOC ON)

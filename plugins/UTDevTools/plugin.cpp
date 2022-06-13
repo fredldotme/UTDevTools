@@ -18,9 +18,13 @@
 #include <QtQml/QQmlContext>
 
 #include "plugin.h"
+
 #include "utils.h"
+#include "filewriter.h"
 
 void UTDevToolsPlugin::registerTypes(const char *uri) {
-    //@uri Example
-    qmlRegisterSingletonType<Utils>(uri, 1, 0, "Utils", [](QQmlEngine*, QJSEngine*) -> QObject* { return new Utils; });
+    //@uri UTDevTools
+    qmlRegisterSingletonType<Utils>(uri, 1, 0, "Utils", [](QQmlEngine*, QJSEngine*) -> QObject* { return new Utils; }
+    qmlRegisterSingletonType<FileWriter>(uri, 1, 0, "FileWriter", [](QQmlEngine*, QJSEngine*) -> QObject* { return new FileWriter; }
+);
 }
