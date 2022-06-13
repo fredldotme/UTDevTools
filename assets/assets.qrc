@@ -1,5 +1,7 @@
 <RCC>
     <qresource prefix="/assets">
         <file>logo.svg</file>
+        <file>utdevtools-libertine-wrapper</file>
+        <file>utdevtools-ssh-libertine-wrapper</file>
     </qresource>
 </RCC>
